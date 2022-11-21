@@ -34,31 +34,31 @@ class Park:
                 self.visitors.append(v)
                 i.add_visitor_to_queue(v)
     
-    def add_to_queue(self, data):
+    def add_to_queue(self, *args, **kwargs):
         pass
     
-    def run_attraction(self, data):
+    def run_attraction(self, *args, **kwargs):
         pass
     
-    def del_from_queue(self, data):
+    def del_from_queue(self, *args, **kwargs):
         pass
     
-    def add_tickets(self, data):
+    def add_tickets(self, *args, **kwargs):
         pass
     
-    def save_data(self, data):
+    def save_data(self, *args, **kwargs):
         pass
     
-    def add_visitor(self, data):
+    def add_visitor(self, *args, **kwargs):
         pass
     
-    def del_visitor(self, data):
+    def del_visitor(self, *args, **kwargs):
         pass
     
-    def change_tickets(self):
+    def change_tickets(self, *args, **kwargs):
         pass
     
-    def get_visitor_data(self):
+    def get_visitor_data(self, *args, **kwargs):
         pass
     
     
