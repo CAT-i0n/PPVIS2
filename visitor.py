@@ -1,9 +1,9 @@
 from random import randint
 import enum
 class Visitor:
-    def __init__(self, self_id, name):
+    def __init__(self, self_id, name, height, weight):
         self.id = self_id
-        self.stats = Stats(randint(100, 200), randint(30, 100))
+        self.stats = Stats(height, weight)
         self.name = name
         self.tickets = 0
         self.state = Visitor_state(0)

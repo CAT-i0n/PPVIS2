@@ -6,7 +6,6 @@ class Attraction:
         self.size: int = size
         self.state: int = state 
         self.working_time: int = working_time
-        self.visitors = []
         self.state = Attraction_state(0)
         self.queue = Queue()
         pass
@@ -15,7 +14,7 @@ class Attraction:
         pass
     
     def add_visitor(self, v: Visitor):
-        self.Visitors.append(v)
+        self.visitors.append(v)
         
     def del_visitor(self, v: Visitor):
         self.visitors.remove(v)
@@ -38,7 +37,7 @@ class Queue:
         self.size = 0
         
     def add_visitor(self, v: Visitor):
-        self.Visitors.append(v)
+        self.visitors.append(v)
         
     def del_visitor(self, v: Visitor):
         self.visitors.remove(v)
